@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<MenuSpec>
+
+    <screenTitle>Pei Pei</screenTitle>
+
+    <back>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <file>images/menuBackground.png</file>
+        <width>854</width>
+        <height>480</height>
+        <startLoc x="0" y="0"/>
+        <transparency>false</transparency>
+    </back>
+
+    <instruction>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <file>images/instruction.png</file>
+        <width>854</width>
+        <height>480</height>
+        <startLoc x="0" y="0"/>
+        <transparency>false</transparency>
+    </instruction>
+
+    <words>
+        <number>5</number>
+        <x>360</x>
+        <y>150</y>
+        <space x="60" y="40"/>
+        <i0>Normal Mode</i0>
+        <i1>GOD MODE</i1>
+        <i2>Insain</i2>
+        <i3>Help</i3>
+        <i4>Exit</i4>
+    </words>
+
+    <clickoff>
+        <file>images/clickoff50.png</file>
+        <width>80</width>
+        <height>82</height>
+        <src x="0" y="0"/>
+        <transparency>false</transparency>
+    </clickoff>
+
+    <clickon>
+        <file>images/clickon50.png</file>
+        <width>80</width>
+        <height>82</height>
+        <src x="0" y="0"/>
+        <transparency>false</transparency>
+    </clickon>
+
+    <clickoff>
+        <clickoffFile>images/clickoff.png</clickoffFile>
+        <clickoffWidth>40</clickoffWidth>
+        <clickoffHeight>40</clickoffHeight>
+        <clickoffSrcX>0</clickoffSrcX>
+        <clickoffSrcY>0</clickoffSrcY>
+        <clickoffTransparency>false</clickoffTransparency>
+    </clickoff>
+
+    <clickon>
+        <clickonFile>images/clickon.png</clickonFile>
+        <clickonWidth>40</clickonWidth>
+        <clickonHeight>40</clickonHeight>
+        <clickonSrcX>0</clickonSrcX>
+        <clickonSrcY>0</clickonSrcY>
+        <clickonTransparency>false</clickonTransparency>
+    </clickon>
+
+</MenuSpec>

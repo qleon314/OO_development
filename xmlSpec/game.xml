@@ -1,0 +1,316 @@
+<?xml version = "1.0"?>
+<GameData>
+    <!-- screenTitle is also used to identify you and your animation.
+         So make sure to include your name as part of the screenTitle -->
+    <screenTitle>Pei Pei</screenTitle>
+    <maxStringSize>50</maxStringSize>
+
+    <frameCap>60</frameCap>
+    <framesAreCapped>true</framesAreCapped>
+
+    <frameMax>200</frameMax>
+    <username>peip</username>
+
+    <font name="font">
+        <file>font/fast99.ttf</file>
+        <size>18</size>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <unused>0</unused>
+    </font>
+
+    <gameOverFont name="gameOverFont">
+        <file>font/Outwrite.ttf</file>
+        <size>100</size>
+        <red>255</red>
+        <green>255</green>
+        <blue>0</blue>
+        <unused>0</unused>
+    </gameOverFont>
+
+
+    <view>
+        <width>854</width>
+        <height>480</height>
+    </view>
+
+    <world>
+        <width>1280</width>
+        <height>480</height>
+    </world>
+
+    <back1>
+        <file>images/b1.png</file>
+        <factor>7</factor>
+        <srcX>0</srcX>
+        <srcY>0</srcY>
+        <width>1280</width>
+        <height>480</height>
+        <transparency>false</transparency>
+    </back1>
+
+    <back2>
+        <file>images/b2.png</file>
+        <factor>6</factor>
+        <srcX>0</srcX>
+        <srcY>0</srcY>
+        <width>1280</width>
+        <height>480</height>
+        <transparency>false</transparency>
+    </back2>
+
+    <back3>
+        <file>images/b3.png</file>
+        <factor>5</factor>
+        <srcX>0</srcX>
+        <srcY>0</srcY>
+        <width>1280</width>
+        <height>480</height>
+        <transparency>false</transparency>
+    </back3>
+
+    <back4>
+        <file>images/b4.png</file>
+        <factor>4</factor>
+        <srcX>0</srcX>
+        <srcY>0</srcY>
+        <width>1280</width>
+        <height>480</height>
+        <transparency>false</transparency>
+    </back4>
+
+    <back5>
+        <file>images/b5.png</file>
+        <factor>3</factor>
+        <srcX>0</srcX>
+        <srcY>0</srcY>
+        <width>1280</width>
+        <height>480</height>
+        <transparency>false</transparency>
+    </back5>
+
+    <back6>
+        <file>images/b6.png</file>
+        <factor>2</factor>
+        <srcX>0</srcX>
+        <srcY>0</srcY>
+        <width>1280</width>
+        <height>480</height>
+        <transparency>false</transparency>
+    </back6>
+
+    <back7>
+        <file>images/b7.png</file>
+        <factor>1</factor>
+        <srcX>0</srcX>
+        <srcY>0</srcY>
+        <width>1280</width>
+        <height>480</height>
+        <transparency>false</transparency>
+    </back7>
+
+    <gameOver>
+        <file>images/gameover.png</file>
+        <srcX>0</srcX>
+        <srcY>0</srcY>
+        <width>854</width>
+        <height>480</height>
+        <transparency>false</transparency>
+    </gameOver>
+
+    <faceless>
+        <file>images/player95.png</file>
+        <startLoc x="50" y="340"/>
+
+        <frames>18</frames>
+        <frameInterval>150</frameInterval>
+
+        <srcX>0</srcX>
+        <srcY>0</srcY>
+        <width>95</width>
+        <height>120</height>
+        <speedX>300</speedX>
+        <speedY>0</speedY>
+        <transparency>false</transparency>
+    </faceless>
+
+
+    <fly>
+        <file>images/beeee.png</file>
+        <locationMinX>120</locationMinX>
+        <locationMaxX>480</locationMaxX>
+        <locationMinY>1</locationMinY>
+        <locationMaxY>1000</locationMaxY>
+
+        <frames>2</frames>
+        <frameInterval>100</frameInterval>
+
+        <srcX>0</srcX>
+        <srcY>0</srcY>
+        <width>100</width>
+        <height>100</height>
+        <count>30</count>
+        <speedMin>-200</speedMin>
+        <speedMax>200</speedMax>
+        <scalemin>0.1</scalemin>
+        <scalemax>0.5</scalemax>
+        <transparency>true</transparency>
+    </fly>
+
+    <bee>
+        <file>images/beeee.png</file>
+        <startLoc x="6" y="35"/>
+
+        <frames>2</frames>
+        <frameInterval>100</frameInterval>
+
+        <srcX>0</srcX>
+        <srcY>0</srcY>
+        <width>35</width>
+        <height>35</height>
+        <count>10</count>
+        <speedX>200</speedX>
+        <speedY>100</speedY>
+        <transparency>true</transparency>
+    </bee>
+
+    <jar>
+        <file>images/jar.png</file>
+        <startLoc x="3" y="42"/>
+
+        <frames>1</frames>
+        <frameInterval>100</frameInterval>
+
+        <srcX>0</srcX>
+        <srcY>0</srcY>
+        <width>50</width>
+        <height>44</height>
+        <speedX>200</speedX>
+        <speedY>200</speedY>
+        <chunk>
+            <size>6</size>
+            <distance>100</distance>
+        </chunk>
+        <transparency>false</transparency>
+    </jar>
+
+    <bomb>
+        <file>images/bomb.png</file>
+        <startLoc x="3" y="42"/>
+        <frames>7</frames>
+        <frameInterval>180</frameInterval>
+
+        <srcX>0</srcX>
+        <srcY>0</srcY>
+        <width>55</width>
+        <height>50</height>
+        <speedX>200</speedX>
+        <speedY>200</speedY>
+        <transparency>true</transparency>
+    </bomb>
+
+    <explosion>
+        <file>images/explosion.png</file>
+        <startLoc x="3" y="42"/>
+        <frames>5</frames>
+        <frameInterval>100</frameInterval>
+
+        <srcX>0</srcX>
+        <srcY>0</srcY>
+        <width>200</width>
+        <height>200</height>
+        <speedX>-0</speedX>
+        <speedY>0</speedY>
+        <transparency>true</transparency>
+    </explosion>
+
+    <acorn>
+        <file>images/acorn.png</file>
+        <startLoc x="0" y="0"/>
+        <interval>200</interval>
+        <rotate>1</rotate>
+        <srcX>0</srcX>
+        <srcY>0</srcY>
+        <width>25</width>
+        <height>20</height>
+        <speedX>100</speedX>
+        <speedY>530</speedY>
+        <speedXShift>40</speedXShift>
+        <transparency>true</transparency>
+    </acorn>
+
+    <hud>
+        <x>7</x>
+        <y>15</y>
+        <length>260</length>
+        <width>160</width>
+        <thick>2</thick>
+        <color>red</color>
+    </hud>
+
+    <health>
+        <x>650</x>
+        <y>450</y>
+        <length>200</length>
+        <width>140</width>
+        <thick>14</thick>
+        <increment>20</increment>
+        <interval>1000</interval>
+        <color>red</color>
+    </health>
+
+</GameData>
+
+
+        <!-- <sky>
+          <file>images/sky.png</file>
+          <red>193</red>
+          <green>205</green>
+          <blue>205</blue>
+          <factor>5</factor>
+          <srcX>0</srcX>
+          <srcY>0</srcY>
+          <width>1280</width>
+          <height>480</height>
+          <transparency>false</transparency>
+        </sky>
+
+        <mount>
+          <file>images/mount.png</file>
+          <red>193</red>
+          <green>205</green>
+          <blue>205</blue>
+          <factor>2</factor>
+          <srcX>0</srcX>
+          <srcY>0</srcY>
+          <width>1280</width>
+          <height>480</height>
+          <transparency>false</transparency>
+        </mount>
+
+        <mount2>
+          <file>images/mount2.png</file>
+          <red>193</red>
+          <green>205</green>
+          <blue>205</blue>
+          <factor>4</factor>
+          <srcX>0</srcX>
+          <srcY>0</srcY>
+          <width>1280</width>
+          <height>480</height>
+          <transparency>false</transparency>
+        </mount2>
+
+        <ground>
+          <file>images/ground.png</file>
+          <red>193</red>
+          <green>205</green>
+          <blue>205</blue>
+          <factor>1</factor>
+          <srcX>0</srcX>
+          <srcY>0</srcY>
+          <width>1280</width>
+          <height>480</height>
+          <transparency>false</transparency>
+        </ground> -->
